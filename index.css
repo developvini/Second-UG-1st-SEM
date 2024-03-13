@@ -36,6 +36,21 @@ button.course-accordation.active:after {
 .f-img:hover{
     transform: scale(1.1);
 }
+.div{
+    display: flex;
+    flex-direction:row;
+    flex-basis: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav-link {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 @media screen and (max-width:600px){
 	#footer{
         display: flex;
